@@ -32,7 +32,37 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  padding: 20px 15px;
+  background-color: #4C3D3D;
+  color: #fff;
+}
+
+.btn {
+  background-color: #C07F00;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  margin: 50px 20px;
+  padding: 10px 25px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.para {
+  font-size: 30px;
 }
